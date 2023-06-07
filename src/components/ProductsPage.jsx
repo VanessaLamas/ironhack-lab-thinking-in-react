@@ -1,17 +1,12 @@
 import React from "react";
-import products from '../data.json'
-function ProductPage() {
+import ProductTable from "./ProductTable";
+
+function ProductsPage() {
     return (
         <div>
-            <h1>Hola</h1>
-            {products.map(product => {
-                return (
-                    <tr key={product.id}>
-                        <p>{product.category}</p>
-                    </tr>
-                );
-            })}
+        <h1>IronStore</h1>
+            <ProductTable />
         </div>
     );
 }
-export default ProductPage;
+export default ProductsPage;
