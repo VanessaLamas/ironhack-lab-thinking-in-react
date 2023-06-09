@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import ProductsPage from './components/ProductsPage';
+import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
   return (
