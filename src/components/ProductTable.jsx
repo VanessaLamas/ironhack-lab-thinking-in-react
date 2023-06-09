@@ -17,6 +17,7 @@ function ProductTable() {
     return (
         <div>
             <SearchBar handleSearch={handleSearch} />
+            <CheckBox handleSearch={handleCheckbox} />
             <ListGroup horizontal>
                 <ListGroup.Item className="w-50 mx-auto" variant="secondary"><h4>Name</h4></ListGroup.Item>
                 <ListGroup.Item className="w-50 mx-auto" variant="secondary"><h4>Price</h4></ListGroup.Item>
