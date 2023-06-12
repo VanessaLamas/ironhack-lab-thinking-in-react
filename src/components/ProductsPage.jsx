@@ -1,5 +1,6 @@
 import React from "react";
 import ProductTable from "./ProductTable";
+
 function ProductsPage() {
     return (
         <div>
@@ -8,4 +9,5 @@ function ProductsPage() {
         </div>
     );
 }
+
 export default ProductsPage;
